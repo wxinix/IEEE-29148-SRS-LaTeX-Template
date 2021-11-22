@@ -14,7 +14,7 @@
 % This template is based on IEEE/ISO/IEC 29148-2018, Section 9.6.
 
 % This template provides the normative content of the software requirement 
-% specification (SRS). The project shall produce the followign inform item 
+% specification (SRS). The project shall produce the following information item 
 % content in accordance with the project's policies with respect to the software
 % requirements specification. Organization of the content such as the order and 
 % section structure may be selected in accordance with the project's information 
@@ -135,10 +135,10 @@
 \chapter{Product Overview}
 
 % [IEEE-29148-2018 9.6.4] Define the system's relationship to other related products
-% If the product is an element of a larger syste, relate the requirements of that
+% If the product is an element of a larger system, relate the requirements of that
 % larger system to the functionality of the product covered by the SRS. 
 
-% [IEEE-29148-2018 9.6.4] If the product is an element of a larger system, identiy the
+% [IEEE-29148-2018 9.6.4] If the product is an element of a larger system, identify the
 % interfaces between the product covered by the SRS and the larger system of which the
 % product is an element.
 
@@ -170,16 +170,16 @@
 % consistent rules for organization, coding, and interaction of the user with the system.
 \subsection{User Interfaces}
 
-% [IEEE-29148-2018 9.6.4.3] Specifythe logical characteristics of each interface
-% between the software product andthe hardware elements of the system. 
+% [IEEE-29148-2018 9.6.4.3] Specify the logical characteristics of each interface
+% between the software product and the hardware elements of the system. 
 % This includes configuration characteristics (num of ports, instruction sets, etc).
 % It also covers such matters as what devices are to be supported, 
 % how they are to be supported, and protocols. 
-% For example, terminal support may specifyfull-screen support as opposed
+% For example, terminal support may specify full-screen support as opposed
 % to line-by-line support.
 \subsection{Hardware Interfaces}
 
-% [IEEE-29148-2018 9.6.4.4] Specify the use ofother required software products
+% [IEEE-29148-2018 9.6.4.4] Specify the use of other required software products
 % (e.g., a data management system, an operating system or a mathematical package),
 % and interfaces with other application systems (e.g., the linkage between an accounts
 % receivable sytem and a general ledger system).
@@ -193,11 +193,11 @@
 
 % [IEEE-29148-2018 9.6.4.4] NOTE it is acceptable to specify required
 % platforms or operating systems, but rarely feasible to require
-% a specific version. Typically,a version number most recent version
-% or any currently maintain version can be specified for software.
+% a specific version. Typically, a version number of the most recent version
+% or any currently maintain version can be specified for the software.
 
 % [IEEE-29148-2018 9.6.4.4] For each interface, specify: 
-%  a) discussion of the purpose of the lnterfacing software as related
+%  a) discussion of the purpose of the interfacing software as related
 %     to this software product;
 %  b) definition of the interface in terms of message content and format. 
 %     It is not necessary to detail any well-documented interface, but a 
@@ -217,7 +217,7 @@
 %  a) the various modes of operations in the user organization
 %     (e.g., user-initiated operations); 
 %  b) periods of interactive operations and periods of unattended operations; 
-%  c) dataprocessing suport functions; and 
+%  c) data processing suport functions; and 
 %  d) backup and recovery operations.
 
 % [IEEE-29148-2018 9.6.3] NOTE This is sometimes specified as part
@@ -226,14 +226,14 @@
 
 % [IEEE-29148-2018 9.6.4.8] The site adaptation requirements include: 
 %   a) definition of the requirements for any data or initialization sequences that are 
-%      specific toa given site, mission, or operational mode 
+%      specific to a given site, mission, or operational mode 
 %      (e.g., grid values, safety limits, etc.); 
 %   b) specification of the site or mission-related features that should be modified to 
 %      adapt the software to aparticular instalation.
 \subsection{Site Adaptation Requirements}
 
 % [IEEE-29148-2018 9.6.4.9] Specify interactions with sevices, e.g., 
-% Software as a Service (SasS) or cloud services.
+% Software as a Service (SaaS) or cloud services.
 \subsection{Interface with Services}
 
 % [IEEE-29148-2018 9.6.5] Provide a summary of the major functions that the
@@ -258,13 +258,13 @@
 % requiremetns are later specified in specific requirements.
 
 % [IEEE-29148-2018 9.6.6] NOTE1 Where appropriate, the user characteristcs of
-% the SyRS and SRS are consistent
+% the System Requirement Specification (SyRS) and SRS are consistent.
 
 % [IEEE-29148-2018 9.6.6] NOTE2 For additional information on context of use
 % and user needs, see ISO/IEC 25063 and ISO/IEC 25064
 \section{User Characteristics}
 
-% [IEEE-29148-2018 9.6.7] Provide a general description of any other itmes
+% [IEEE-29148-2018 9.6.7] Provide a general description of any other items
 % that will limit the supplier's options, including:
 %   a) regulatory requirements and policies
 %   b) hardware limitations (e.g., signal timing requirements);
@@ -282,7 +282,7 @@
 %      requirements from the controlled system through interfaces.
 \section{Limitations}
 
-% [IEEE-29148-2018 9.6.8]List each of the factors that affect the requirements
+% [IEEE-29148-2018 9.6.8] List each of the factors that affect the requirements
 % stated in the SRS. These factors are not design constraints on the software
 % but any changes to these factors can affect the requirements in the SRS.
 % For example, an assumption may be that a specific operating system will be 
@@ -325,12 +325,13 @@
 %   e) units of measure; 
 %   f) timing; 
 %   g) relationships to other inputs/outputs; 
-%   h) data formats; i) command formats; and 
+%   h) data formats; 
+%   i) command formats; and 
 %   j) data items or information included in the input and output.
 \section{External Interfaces}
 
 % [IEEE-29148-2018 9.6.12] Define the fundamental actions that have to take place
-% in teh software in accepting and processing the inputs and in procesing 
+% in the software in accepting and processing the inputs and in procesing 
 % and generating the outputs, including: 
 %   a) validity checks on teh inputs;
 %   b) exact sequence of operations; 
@@ -343,7 +344,7 @@
 %  e) relationship of outputs to inputs, incuding: 
 %       1) input/output sequences and 
 %       2) formulas for input to output conversion.
-% It may be appropriate the functional requirements into sub-functions or sub-processes. 
+% It may be appropriate to partition the functional requirements into sub-functions or sub-processes. 
 % This does not imply that the software design will also be partitioned that way.
 \section{Functions}
 
